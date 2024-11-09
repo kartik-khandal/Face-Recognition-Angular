@@ -10,7 +10,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 Here is a screenshot of the app:
 
-![FaceRecognitionApp Screenshot](assets/screenshot.png)
+![FaceRecognitionApp Screenshot](/public/assets/Screenshot.png)
 
 ## Code scaffolding
 
