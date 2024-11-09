@@ -50,7 +50,7 @@ export class FaceRecognitionComponent implements OnInit, AfterViewInit {
   async recognizeFaces(): Promise<void> {
     const labeledDescriptors = await this.loadLabeledImages();
     this.isLoading = false;
-    const faceMatcher = new faceapi.FaceMatcher(labeledDescriptors, 0.55);
+    const faceMatcher = new faceapi.FaceMatcher(labeledDescriptors, 0.5);
     
     const canvas = faceapi.createCanvasFromMedia(this.video);
     document.getElementById('main-sec')?.appendChild(canvas);
